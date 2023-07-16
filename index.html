@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="card">
+        <div class="nav">
+            <input id="input" type="text" placeholder="Enter city name">
+            <div id="search-png" class="search">
+                <img src="Images/search.png" alt="Search img" width="20">
+            </div>
+        </div>
+
+        <div class="temperature">
+            <div id="weather">
+                <img src="./Images/clear.png" alt="">
+            </div>
+            <h2 id="temp">Weather App</h2>
+            <p id="cityName">By Praveen Singh</p>
+        </div>
+
+        <div class="wind-section">
+            <div class="wind">
+                <div class="wind-img">
+                    <img src="Images/humidity.png" alt="" width="40">
+                </div>
+                <div class="wind-flow">
+                    <p id="humidity"></p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <div class="wind-img">
+                    <img src="Images/wind.png" alt="" width="40">
+                </div>
+                <div class="wind-flow">
+                    <p id="speed"></p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
